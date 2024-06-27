@@ -1,0 +1,16 @@
+date
+
+
+mkdir build
+cd build
+
+
+cmake .. -DUSE_HUGE=true -DUSE_CXL=true -DTHREAD_NUM=32 -DSELECTIVITY=0.90 -DRUN_NUM=6 -DNUMA_NODE_IDX=9
+# cmake .. -DUSE_HUGE=true -DUSE_CXL=true -DTHREAD_NUM=32 -DSELECTIVITY=0.60 -DRUN_NUM=5 -DNUMA_NODE_IDX=9 -DUSE_TIER=true
+# cmake .. -DUSE_HUGE=true -DUSE_CXL=true -DTHREAD_NUM=32 -DSELECTIVITY=0.60 -DRUN_NUM=6 -DNUMA_NODE_IDX=8 -DUSE_INTERLEAVING=true
+
+make -j 16
+cd ..
+
+
+date
