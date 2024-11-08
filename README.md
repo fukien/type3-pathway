@@ -1,4 +1,5 @@
-# ADMS'24 submission AE
+# Bandwidth Expansion via CXL: A Pathway to Accelerating In-Memory Analytical Processing.
+Code repository for our [ADMS'24 paper](https://vldb.org/workshops/2024/proceedings/ADMS/ADMS24_01.pdf). 
 
 ## Prerequisites
 
