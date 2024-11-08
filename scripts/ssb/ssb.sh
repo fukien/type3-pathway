@@ -11,7 +11,6 @@ _7_LOG=${DIR_PATH}/ssb_7.log
 rm $_7_LOG
 _8_LOG=${DIR_PATH}/ssb_8.log
 rm $_8_LOG
-
 _8_TIER_LOG=${DIR_PATH}/ssb_tier_8.log
 rm $_8_TIER_LOG
 _32_LOG=${DIR_PATH}/ssb_32.log
